@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CareToBeauty Application Test Automation Test Suite">
+	<test name="CareToBeauty App Test Cases">
+		<classes>
+			<class name="com.caretobeauty.qa.testcases.LoginPageTest" />
+			<class name="com.caretobeauty.qa.testcases.HomePageTest" />
+			<class name="com.caretobeauty.qa.testcases.NutritionPageTest" />
+			<class name="com.caretobeauty.qa.testcases.CartPageTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
