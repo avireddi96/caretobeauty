@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CareToBeauty Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CareToBeauty App Test Cases(failed)">
+    <classes>
+      <class name="com.caretobeauty.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="validateCTBlogoTest"/>
+        </methods>
+      </class> <!-- com.caretobeauty.qa.testcases.LoginPageTest -->
+      <class name="com.caretobeauty.qa.testcases.CartPageTest">
+        <methods>
+          <include name="verfiyProceedToCheckoutLink"/>
+          <include name="verifyPageTitle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.caretobeauty.qa.testcases.CartPageTest -->
+      <class name="com.caretobeauty.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyNutritionLinkTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.caretobeauty.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- CareToBeauty App Test Cases(failed) -->
+</suite> <!-- Failed suite [CareToBeauty Application Test Automation Test Suite] -->

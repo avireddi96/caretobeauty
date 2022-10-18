@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">CareToBeauty Application Test Automation Test Suite</th></tr>
+<tr><td><a href="#t0">CareToBeauty App Test Cases</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">249,895</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CareToBeauty Application Test Automation Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">CareToBeauty App Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.caretobeauty.qa.testcases.CartPageTest</td><td><a href="#m0">verfiyProceedToCheckoutLink</a></td><td rowspan="1">1666020379110</td><td rowspan="1">11557</td></tr><tr class="failedeven"><td><a href="#m1">verifyPageTitle</a></td><td rowspan="1">1666020323662</td><td rowspan="1">1018</td></tr><tr class="failedodd"><td rowspan="1">com.caretobeauty.qa.testcases.HomePageTest</td><td><a href="#m2">verifyNutritionLinkTest</a></td><td rowspan="1">1666020222494</td><td rowspan="1">20590</td></tr><tr class="failedeven"><td rowspan="3">com.caretobeauty.qa.testcases.LoginPageTest</td><td><a href="#m3">loginPageTitleTest</a></td><td rowspan="1">1666020152703</td><td rowspan="1">160</td></tr><tr class="failedeven"><td><a href="#m4">loginTest</a></td><td rowspan="1">1666020180249</td><td rowspan="1">7972</td></tr><tr class="failedeven"><td><a href="#m5">validateCTBlogoTest</a></td><td rowspan="1">1666020161241</td><td rowspan="1">10079</td></tr><tr><th colspan="4">CareToBeauty App Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.caretobeauty.qa.testcases.CartPageTest</td><td><a href="#m6">verifyViewCartPage</a></td><td rowspan="1">1666020349059</td><td rowspan="1">4869</td></tr><tr class="passedodd"><td rowspan="2">com.caretobeauty.qa.testcases.HomePageTest</td><td><a href="#m7">homePageLogoTest</a></td><td rowspan="1">1666020198194</td><td rowspan="1">197</td></tr><tr class="passedodd"><td><a href="#m8">validateHomePageTitleTest</a></td><td rowspan="1">1666020213440</td><td rowspan="1">65</td></tr><tr class="passedeven"><td rowspan="3">com.caretobeauty.qa.testcases.NutritionPageTest</td><td><a href="#m9">addProductToCart</a></td><td rowspan="1">1666020282239</td><td rowspan="1">15662</td></tr><tr class="passedeven"><td><a href="#m10">verifyNutritionPageHeadTest</a></td><td rowspan="1">1666020267795</td><td rowspan="1">324</td></tr><tr class="passedeven"><td><a href="#m11">verifyPageTitle</a></td><td rowspan="1">1666020256186</td><td rowspan="1">65</td></tr></tbody>
+</table>
+<h2>CareToBeauty App Test Cases</h2><h3 id="m0">com.caretobeauty.qa.testcases.CartPageTest#verfiyProceedToCheckoutLink</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;AVII&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c5d588280b0b0ecdc09830e90568e29, clickElement {id=d9abaec3-a47a-4fd9-921a-b0b3eede9796}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59035}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59035/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2c5d588280b0b0ecdc09830e90568e29)] -&gt; xpath: //button[contains(@title,&apos;Proceed to Checkout&apos;)]]
+Session ID: 2c5d588280b0b0ecdc09830e90568e29
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at com.caretobeauty.qa.pages.CartPage.validateProceedToCeckoutLink(CartPage.java:39)
+	at com.caretobeauty.qa.testcases.CartPageTest.verfiyProceedToCheckoutLink(CartPageTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.caretobeauty.qa.testcases.CartPageTest#verifyPageTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Shopping Cart
+] but found [Buy Heliocare Sun Capsules x60 · India]
+	at com.caretobeauty.qa.testcases.CartPageTest.verifyPageTitle(CartPageTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.caretobeauty.qa.testcases.HomePageTest#verifyNutritionLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=106.0.5249.119)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;AVII&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b6ca6b11070b3f539c20b47925cd891, clickElement {id=2489b876-8693-402c-81af-40f21d856736}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58559/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1b6ca6b11070b3f539c20b47925cd891)] -&gt; link text: NUTRITION]
+Session ID: 1b6ca6b11070b3f539c20b47925cd891
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at com.caretobeauty.qa.pages.HomePage.clickOnNutritionLink(HomePage.java:33)
+	at com.caretobeauty.qa.testcases.HomePageTest.verifyNutritionLinkTest(HomePageTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.caretobeauty.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Care to Beauty India · Online Shop · from Care to Beauty products] but found [Care to Beauty India · All Your Cosmetics At Your Fingertips]
+	at com.caretobeauty.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.caretobeauty.qa.testcases.LoginPageTest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: email
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;AVII&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at com.caretobeauty.qa.pages.LoginPage.login(LoginPage.java:36)
+	at com.caretobeauty.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.caretobeauty.qa.testcases.LoginPageTest#validateCTBlogoTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(@class,&apos;logo logo--regular&apos;)]&quot;}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;AVII&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32ac9f3db701c583e18069e40db727ed, findElement {using=xpath, value=//a[contains(@class,&apos;logo logo--regular&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58293/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ac9f3db701c583e18069e40db727ed
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+	at com.caretobeauty.qa.pages.LoginPage.validateCTBLogo(LoginPage.java:32)
+	at com.caretobeauty.qa.testcases.LoginPageTest.validateCTBlogoTest(LoginPageTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.caretobeauty.qa.testcases.CartPageTest#verifyViewCartPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.caretobeauty.qa.testcases.HomePageTest#homePageLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.caretobeauty.qa.testcases.HomePageTest#validateHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.caretobeauty.qa.testcases.NutritionPageTest#addProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.caretobeauty.qa.testcases.NutritionPageTest#verifyNutritionPageHeadTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.caretobeauty.qa.testcases.NutritionPageTest#verifyPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
