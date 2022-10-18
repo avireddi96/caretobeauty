@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.caretobeauty.qa.util.TestUtil;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+// test
 public class TestBase {
 
 	protected static WebDriver driver;
@@ -25,6 +25,7 @@ public class TestBase {
 	public static WebDriverWait wait;
 
 
+	
 	public TestBase() {
 		try {
 			prop = new Properties();

@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.caretobeauty.qa.testcases.CartPageTest">
+      <class name="com.caretobeauty.qa.testcases.LoginPageTest">
         <methods>
-          <include name="verfiyProceedToCheckoutLink"/>
-          <include name="verifyPageTitle"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="validateCTBlogoTest"/>
         </methods>
-      </class> <!-- com.caretobeauty.qa.testcases.CartPageTest -->
+      </class> <!-- com.caretobeauty.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

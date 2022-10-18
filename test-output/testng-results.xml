@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="12" passed="6" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-15T20:06:35 IST" name="Default suite" finished-at="2022-10-15T20:08:10 IST" duration-ms="94730">
+  <suite started-at="2022-10-17T20:52:21 IST" name="CareToBeauty Application Test Automation Test Suite" finished-at="2022-10-17T20:56:31 IST" duration-ms="249895">
     <groups>
     </groups>
-    <test started-at="2022-10-15T20:06:35 IST" name="Default test" finished-at="2022-10-15T20:08:10 IST" duration-ms="94730">
-      <class name="com.caretobeauty.qa.testcases.CartPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@5b03b9fe]" started-at="2022-10-15T20:06:36 IST" name="setUp" finished-at="2022-10-15T20:07:03 IST" duration-ms="27552" status="PASS">
+    <test started-at="2022-10-17T20:52:21 IST" name="CareToBeauty App Test Cases" finished-at="2022-10-17T20:56:31 IST" duration-ms="249895">
+      <class name="com.caretobeauty.qa.testcases.NutritionPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.NutritionPageTest@1e0b4072]" started-at="2022-10-17T20:54:03 IST" name="setUp" finished-at="2022-10-17T20:54:16 IST" duration-ms="12831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyPageTitle()[pri:1, instance:com.caretobeauty.qa.testcases.CartPageTest@5b03b9fe]" started-at="2022-10-15T20:07:03 IST" name="verifyPageTitle" finished-at="2022-10-15T20:07:04 IST" duration-ms="972" status="FAIL">
+        <test-method signature="verifyPageTitle()[pri:1, instance:com.caretobeauty.qa.testcases.NutritionPageTest@1e0b4072]" started-at="2022-10-17T20:54:16 IST" name="verifyPageTitle" finished-at="2022-10-17T20:54:16 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.NutritionPageTest@1e0b4072]" started-at="2022-10-17T20:54:16 IST" name="tearDown" finished-at="2022-10-17T20:54:16 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.NutritionPageTest@1e0b4072]" started-at="2022-10-17T20:54:16 IST" name="setUp" finished-at="2022-10-17T20:54:27 IST" duration-ms="11033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNutritionPageHeadTest()[pri:2, instance:com.caretobeauty.qa.testcases.NutritionPageTest@1e0b4072]" started-at="2022-10-17T20:54:27 IST" name="verifyNutritionPageHeadTest" finished-at="2022-10-17T20:54:28 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNutritionPageHeadTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.NutritionPageTest@1e0b4072]" started-at="2022-10-17T20:54:28 IST" name="tearDown" finished-at="2022-10-17T20:54:29 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.NutritionPageTest@1e0b4072]" started-at="2022-10-17T20:54:29 IST" name="setUp" finished-at="2022-10-17T20:54:42 IST" duration-ms="12906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:3, instance:com.caretobeauty.qa.testcases.NutritionPageTest@1e0b4072]" started-at="2022-10-17T20:54:42 IST" name="addProductToCart" finished-at="2022-10-17T20:54:57 IST" duration-ms="15662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.NutritionPageTest@1e0b4072]" started-at="2022-10-17T20:54:57 IST" name="tearDown" finished-at="2022-10-17T20:54:58 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.caretobeauty.qa.testcases.NutritionPageTest -->
+      <class name="com.caretobeauty.qa.testcases.CartPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@791f145a]" started-at="2022-10-17T20:54:58 IST" name="setUp" finished-at="2022-10-17T20:55:23 IST" duration-ms="25238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPageTitle()[pri:1, instance:com.caretobeauty.qa.testcases.CartPageTest@791f145a]" started-at="2022-10-17T20:55:23 IST" name="verifyPageTitle" finished-at="2022-10-17T20:55:24 IST" duration-ms="1018" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Shopping Cart
@@ -28,9 +66,9 @@ at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
 at com.caretobeauty.qa.testcases.CartPageTest.verifyPageTitle(CartPageTest.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -39,7 +77,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -61,54 +99,53 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@5b03b9fe]" started-at="2022-10-15T20:07:04 IST" name="tearDown" finished-at="2022-10-15T20:07:05 IST" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@791f145a]" started-at="2022-10-17T20:55:24 IST" name="tearDown" finished-at="2022-10-17T20:55:25 IST" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@5b03b9fe]" started-at="2022-10-15T20:07:05 IST" name="setUp" finished-at="2022-10-15T20:07:29 IST" duration-ms="24432" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@791f145a]" started-at="2022-10-17T20:55:25 IST" name="setUp" finished-at="2022-10-17T20:55:49 IST" duration-ms="23851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyViewCartPage()[pri:2, instance:com.caretobeauty.qa.testcases.CartPageTest@5b03b9fe]" started-at="2022-10-15T20:07:29 IST" name="verifyViewCartPage" finished-at="2022-10-15T20:07:33 IST" duration-ms="3754" status="PASS">
+        <test-method signature="verifyViewCartPage()[pri:2, instance:com.caretobeauty.qa.testcases.CartPageTest@791f145a]" started-at="2022-10-17T20:55:49 IST" name="verifyViewCartPage" finished-at="2022-10-17T20:55:53 IST" duration-ms="4869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyViewCartPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@5b03b9fe]" started-at="2022-10-15T20:07:33 IST" name="tearDown" finished-at="2022-10-15T20:07:33 IST" duration-ms="567" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@791f145a]" started-at="2022-10-17T20:55:53 IST" name="tearDown" finished-at="2022-10-17T20:55:54 IST" duration-ms="373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@5b03b9fe]" started-at="2022-10-15T20:07:33 IST" name="setUp" finished-at="2022-10-15T20:08:00 IST" duration-ms="26490" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@791f145a]" started-at="2022-10-17T20:55:54 IST" name="setUp" finished-at="2022-10-17T20:56:19 IST" duration-ms="24807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verfiyProceedToCheckoutLink()[pri:3, instance:com.caretobeauty.qa.testcases.CartPageTest@5b03b9fe]" started-at="2022-10-15T20:08:00 IST" name="verfiyProceedToCheckoutLink" finished-at="2022-10-15T20:08:10 IST" duration-ms="10076" status="FAIL">
+        <test-method signature="verfiyProceedToCheckoutLink()[pri:3, instance:com.caretobeauty.qa.testcases.CartPageTest@791f145a]" started-at="2022-10-17T20:56:19 IST" name="verfiyProceedToCheckoutLink" finished-at="2022-10-17T20:56:30 IST" duration-ms="11557" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
   (Session info: chrome=106.0.5249.119)
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'AVII', ip: '192.168.29.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+System info: host: 'AVII', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [404b6ef12e6c83e21c945da2e36c82ec, clickElement {id=31102d75-6b44-421a-b940-a0b1e1d54ff4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:51992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51992/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (404b6ef12e6c83e21c945da2e36c82ec)] -> xpath: //button[contains(@title,'Proceed to Checkout')]]
-Session ID: 404b6ef12e6c83e21c945da2e36c82ec]]>
+Command: [2c5d588280b0b0ecdc09830e90568e29, clickElement {id=d9abaec3-a47a-4fd9-921a-b0b3eede9796}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59035}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59035/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2c5d588280b0b0ecdc09830e90568e29)] -> xpath: //button[contains(@title,'Proceed to Checkout')]]
+Session ID: 2c5d588280b0b0ecdc09830e90568e29]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=106.0.5249.119)
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'AVII', ip: '192.168.29.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+System info: host: 'AVII', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [404b6ef12e6c83e21c945da2e36c82ec, clickElement {id=31102d75-6b44-421a-b940-a0b1e1d54ff4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:51992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51992/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (404b6ef12e6c83e21c945da2e36c82ec)] -> xpath: //button[contains(@title,'Proceed to Checkout')]]
-Session ID: 404b6ef12e6c83e21c945da2e36c82ec
+Command: [2c5d588280b0b0ecdc09830e90568e29, clickElement {id=d9abaec3-a47a-4fd9-921a-b0b3eede9796}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59035}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59035/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2c5d588280b0b0ecdc09830e90568e29)] -> xpath: //button[contains(@title,'Proceed to Checkout')]]
+Session ID: 2c5d588280b0b0ecdc09830e90568e29
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -120,15 +157,15 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
 at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at com.sun.proxy.$Proxy17.click(Unknown Source)
 at com.caretobeauty.qa.pages.CartPage.validateProceedToCeckoutLink(CartPage.java:39)
 at com.caretobeauty.qa.testcases.CartPageTest.verfiyProceedToCheckoutLink(CartPageTest.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -137,7 +174,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -159,11 +196,332 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfiyProceedToCheckoutLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@5b03b9fe]" started-at="2022-10-15T20:08:10 IST" name="tearDown" finished-at="2022-10-15T20:08:10 IST" duration-ms="368" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.CartPageTest@791f145a]" started-at="2022-10-17T20:56:30 IST" name="tearDown" finished-at="2022-10-17T20:56:31 IST" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.caretobeauty.qa.testcases.CartPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.caretobeauty.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2022-10-17T20:52:21 IST" name="setUp" finished-at="2022-10-17T20:52:32 IST" duration-ms="11513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.caretobeauty.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2022-10-17T20:52:32 IST" name="loginPageTitleTest" finished-at="2022-10-17T20:52:32 IST" duration-ms="160" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Care to Beauty India · Online Shop · from Care to Beauty products] but found [Care to Beauty India · All Your Cosmetics At Your Fingertips]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Care to Beauty India · Online Shop · from Care to Beauty products] but found [Care to Beauty India · All Your Cosmetics At Your Fingertips]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.caretobeauty.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2022-10-17T20:52:32 IST" name="tearDown" finished-at="2022-10-17T20:52:33 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2022-10-17T20:52:33 IST" name="setUp" finished-at="2022-10-17T20:52:41 IST" duration-ms="7988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCTBlogoTest()[pri:2, instance:com.caretobeauty.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2022-10-17T20:52:41 IST" name="validateCTBlogoTest" finished-at="2022-10-17T20:52:51 IST" duration-ms="10079" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'logo logo--regular')]"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'AVII', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32ac9f3db701c583e18069e40db727ed, findElement {using=xpath, value=//a[contains(@class,'logo logo--regular')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58293/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ac9f3db701c583e18069e40db727ed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'logo logo--regular')]"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'AVII', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32ac9f3db701c583e18069e40db727ed, findElement {using=xpath, value=//a[contains(@class,'logo logo--regular')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58293/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ac9f3db701c583e18069e40db727ed
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy17.isDisplayed(Unknown Source)
+at com.caretobeauty.qa.pages.LoginPage.validateCTBLogo(LoginPage.java:32)
+at com.caretobeauty.qa.testcases.LoginPageTest.validateCTBlogoTest(LoginPageTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCTBlogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2022-10-17T20:52:51 IST" name="tearDown" finished-at="2022-10-17T20:52:51 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2022-10-17T20:52:51 IST" name="setUp" finished-at="2022-10-17T20:53:00 IST" duration-ms="8597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.caretobeauty.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2022-10-17T20:53:00 IST" name="loginTest" finished-at="2022-10-17T20:53:08 IST" duration-ms="7972" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.id: email
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'AVII', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.id: email
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'AVII', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+at com.caretobeauty.qa.pages.LoginPage.login(LoginPage.java:36)
+at com.caretobeauty.qa.testcases.LoginPageTest.loginTest(LoginPageTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2022-10-17T20:53:08 IST" name="tearDown" finished-at="2022-10-17T20:53:08 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.caretobeauty.qa.testcases.LoginPageTest -->
+      <class name="com.caretobeauty.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.HomePageTest@4d154ccd]" started-at="2022-10-17T20:53:08 IST" name="setUp" finished-at="2022-10-17T20:53:18 IST" duration-ms="9676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageLogoTest()[pri:1, instance:com.caretobeauty.qa.testcases.HomePageTest@4d154ccd]" started-at="2022-10-17T20:53:18 IST" name="homePageLogoTest" finished-at="2022-10-17T20:53:18 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.HomePageTest@4d154ccd]" started-at="2022-10-17T20:53:18 IST" name="tearDown" finished-at="2022-10-17T20:53:19 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.HomePageTest@4d154ccd]" started-at="2022-10-17T20:53:19 IST" name="setUp" finished-at="2022-10-17T20:53:33 IST" duration-ms="13840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePageTitleTest()[pri:2, instance:com.caretobeauty.qa.testcases.HomePageTest@4d154ccd]" started-at="2022-10-17T20:53:33 IST" name="validateHomePageTitleTest" finished-at="2022-10-17T20:53:33 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.HomePageTest@4d154ccd]" started-at="2022-10-17T20:53:33 IST" name="tearDown" finished-at="2022-10-17T20:53:33 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.caretobeauty.qa.testcases.HomePageTest@4d154ccd]" started-at="2022-10-17T20:53:33 IST" name="setUp" finished-at="2022-10-17T20:53:42 IST" duration-ms="8671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNutritionLinkTest()[pri:3, instance:com.caretobeauty.qa.testcases.HomePageTest@4d154ccd]" started-at="2022-10-17T20:53:42 IST" name="verifyNutritionLinkTest" finished-at="2022-10-17T20:54:03 IST" duration-ms="20590" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'AVII', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b6ca6b11070b3f539c20b47925cd891, clickElement {id=2489b876-8693-402c-81af-40f21d856736}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58559/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1b6ca6b11070b3f539c20b47925cd891)] -> link text: NUTRITION]
+Session ID: 1b6ca6b11070b3f539c20b47925cd891]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'AVII', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b6ca6b11070b3f539c20b47925cd891, clickElement {id=2489b876-8693-402c-81af-40f21d856736}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Avi\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58559}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58559/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1b6ca6b11070b3f539c20b47925cd891)] -> link text: NUTRITION]
+Session ID: 1b6ca6b11070b3f539c20b47925cd891
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy17.click(Unknown Source)
+at com.caretobeauty.qa.pages.HomePage.clickOnNutritionLink(HomePage.java:33)
+at com.caretobeauty.qa.testcases.HomePageTest.verifyNutritionLinkTest(HomePageTest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNutritionLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.caretobeauty.qa.testcases.HomePageTest@4d154ccd]" started-at="2022-10-17T20:54:03 IST" name="tearDown" finished-at="2022-10-17T20:54:03 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.caretobeauty.qa.testcases.HomePageTest -->
+    </test> <!-- CareToBeauty App Test Cases -->
+  </suite> <!-- CareToBeauty Application Test Automation Test Suite -->
 </testng-results>
